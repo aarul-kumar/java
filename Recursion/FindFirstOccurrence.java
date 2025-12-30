@@ -1,6 +1,7 @@
 package Recursion;
 
 public class FindFirstOccurrence {
+    //Compare with self, then look forward
     public static int firstOccurrence(int arr[], int key, int i) {
         if(i == arr.length) {
             return -1;

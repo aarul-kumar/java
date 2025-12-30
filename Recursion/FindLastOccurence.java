@@ -1,6 +1,7 @@
 package Recursion;
 
 public class FindLastOccurence {
+    //Look forward, then compare with self
     public static int lastOccurence(int arr[], int key, int i) {
         if(i == arr.length) {
             return -1;
