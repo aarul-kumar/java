@@ -12,6 +12,6 @@ public class BinaryRecursion {
         }
     }
     public static void main(String[] args) {
-        binaryString(3, 0, "");
+        binaryString(5, 0, "");
     }
 }
