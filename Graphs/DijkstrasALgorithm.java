@@ -3,7 +3,7 @@ package Graphs;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public class DijkstrasALgorithm {
+public class DijkstrasAlgorithm {
     public static class Edge {
         int src;
         int dest;
