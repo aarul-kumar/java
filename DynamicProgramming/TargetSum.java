@@ -1,5 +1,4 @@
 package DynamicProgramming;
-
 public class TargetSum {
     public static boolean tabulation(int sum, int num[]) {
         boolean dp[][] = new boolean[num.length + 1][sum + 1];
